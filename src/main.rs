@@ -1,3 +1,5 @@
+//! This is my main binary.
+
 fn main() {
     log("Hello, world!");
     log("Mid log...");
