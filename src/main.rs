@@ -1,4 +1,8 @@
 fn main() {
-    println!("Hello, world!");
-    println!("Now, goodbye!");
+    log("Hello, world!");
+    log("Now, goodbye!");
+}
+
+fn log(d: impl std::fmt::Display) {
+    println!("info: {d}");
 }
