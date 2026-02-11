@@ -1,5 +1,6 @@
 fn main() {
     log("Hello, world!");
+    log("Mid log...");
     log("Now, goodbye!");
 }
 
